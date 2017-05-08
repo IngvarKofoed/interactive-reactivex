@@ -9,7 +9,8 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    contentBase: path.resolve(__dirname, "dist")
+    contentBase: path.resolve(__dirname, "dist"),
+    stats: { colors: true }
   },
   resolve: {
     // Add '.ts' and '.tsx' as a resolvable extension.    
