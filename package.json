@@ -18,12 +18,13 @@
   },
   "homepage": "https://github.com/IngvarKofoed/interactive-reactivex#readme",
   "devDependencies": {
+    "@types/d3-selection": "^1.0.15",
+    "copy-webpack-plugin": "4.0.1",
     "ts-loader": "2.0.3",
     "typescript": "2.3.2",
-    "webpack": "2.5.0",
-    "@types/d3-selection": "^1.0.15"
+    "webpack": "2.5.0"
   },
-  "dependencies": {    
+  "dependencies": {
     "d3-selection": "^1.0.6"
   }
 }
