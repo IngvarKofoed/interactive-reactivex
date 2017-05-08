@@ -2,10 +2,11 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 var path = require("path");
 
 module.exports = {
-  entry: "./src/svg-render.ts",
+  entry: "./src/main.ts",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "svg-render.js"
+    filename: "bundle.js",
+    library: 'EntryPoint'
   },
   devServer: {
     inline: true,
